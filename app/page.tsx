@@ -1,3 +1,4 @@
+import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -10,6 +11,7 @@ const page = () => {
       <Hero />
       <Projects />
       <Experience />
+      <Contact />
     </section>
   )
 }
