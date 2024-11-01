@@ -22,7 +22,7 @@ const Hero = () => {
                       target="_blank"
                       rel="noopener nonreferrer"
                       download
-                      className="bg-white rounded-full px-4 text-sm text-stone-800 mb-10">
+                      className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
                         Download Resume
                       </Link>
                 </div>
