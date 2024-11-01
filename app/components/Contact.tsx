@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
-    <article>
+    <article id="contact">
         <div className="border-t border-stone-900 pb-20">
             <motion.h2
              whileInView={{ opacity: 1, y: 0 }}
