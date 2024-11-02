@@ -28,5 +28,3 @@ export const experiences = [
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
-
-export const awards = [];

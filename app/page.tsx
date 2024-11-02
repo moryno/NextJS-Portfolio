@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Hero from "./components/Hero"
+import Awards from "./components/Awards"
 
 const page = () => {
   return (
@@ -13,8 +14,9 @@ const page = () => {
       <Hero />
       <About />
       <Skills />
-      <Projects />
       <Experience />
+      <Projects />
+      <Awards />
       <Contact />
     </section>
   )
