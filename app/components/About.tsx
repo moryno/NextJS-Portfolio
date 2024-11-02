@@ -28,7 +28,7 @@ const childVariants = {
   }
 }
 
-const Hero = () => {
+const About = () => {
   return (
     <article id="about" className="pb-4 lg:mb-36">
         <div className="flex flex-wrap lg:flex-row-reverse">
@@ -98,4 +98,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default About

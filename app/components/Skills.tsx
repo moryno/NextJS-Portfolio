@@ -12,13 +12,17 @@ const Skills = () => {
          whileInView={{ opacity: 1, y: 0}}
          initial={{ opacity: 0, y: -100}}
          transition={{ duration: 0.5 }}
-         className='my-20 text-center text-4xl uppercase'>
+         className='my-20 text-center text-2xl uppercase'>
             Skills
         </motion.h2>
-        <div>
+        <motion.div
+          whileInView={{ opacity: 1, y: 0}}
+          initial={{ opacity: 0, y: 100}}
+          transition={{ duration: 0.5 }}
+        >
             <Marquee
              gradient={false}
-             speed={80}
+             speed={60}
              pauseOnHover={true}
              pauseOnClick={true}
              delay={0}
@@ -57,7 +61,7 @@ const Skills = () => {
                 </div>
             ))}
             </Marquee>
-        </div>
+        </motion.div>
     </article>
   )
 }
