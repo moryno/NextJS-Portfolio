@@ -16,7 +16,8 @@ const Projects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
-          className='my-20 text-center text-2xl uppercase'>Projects</motion.h2>
+          className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>
+            [ Projects ]</motion.h2>
         <div>
             {projectsData.map((project: Iproject, index: number) => (
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
