@@ -17,3 +17,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background);
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide{
+  scrollbar-width: none;
+}
