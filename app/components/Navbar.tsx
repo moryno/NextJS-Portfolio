@@ -1,7 +1,8 @@
 "use client"
 import Link from "next/link"
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { motion } from "framer-motion"
+import Image from "next/image"
+import logo from "../../public/png/darkLogo.png"
 
 const Navbar = () => {
   return (
@@ -10,21 +11,14 @@ const Navbar = () => {
          whileInView={{ opacity: 1, y: 0 }}
          initial={{ opacity: 0, y: 100 }}
          transition={{ duration: 0.5 }}
-         className="flex flex-shrink-0 items-center justify-center gap-4 text-2xl">
-            <Link href={""} 
-            target="_blank" 
-            rel="noopener norefferer" 
-            aria-label="LinkedIn"
-            >
-              <FaLinkedinIn size={18} />
-            </Link>
-            <Link href={""} 
-            target="_blank" 
-            rel="noopener norefferer" 
-            aria-label="GitHub"
-            >
-                <FaGithub size={18} />
-            </Link>
+         className="flex flex-shrink-0 items-center justify-center">
+            <Image
+              src={logo}
+              alt="logo"
+              width={60}
+              // height={60}
+              // className="hover:scale-125 rounded-xl"
+            />
         </motion.div>
         <motion.ul
              whileInView={{ opacity: 1, y: 0 }}
@@ -58,6 +52,13 @@ const Navbar = () => {
              href={"#experience"}
             >
                 <div className="text-sm transition-colors duration-300 hover:text-pink-500">EXPERIENCE</div>
+            </Link>
+          </li>
+          <li>
+            <Link role="button" className="block px-4 py-2 no-underline outline-none hover:no-underline"
+             href={"#awards"}
+            >
+                <div className="text-sm transition-colors duration-300 hover:text-pink-500">AWARDS</div>
             </Link>
           </li>
           <li>
