@@ -1,4 +1,5 @@
 "use client"
+
 import { personalData } from "@/utils/data/personal-data"
 import { motion } from "framer-motion";
 
@@ -25,13 +26,16 @@ const childVariants = {
 }
 
 const About = () => {
+ 
   return (
     <article id="about" className="pb-4 lg:mb-36">
         <motion.h2 
          whileInView={{ opacity: 1, y: 0}}
          initial={{ opacity: 0, y: -100}}
          transition={{ duration: 0.5 }}
-         className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>[ About Me ]</motion.h2>
+         className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>
+          [ About Me ]
+        </motion.h2>
         <div className="flex flex-wrap lg:flex-row-reverse">
             <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
