@@ -8,10 +8,10 @@ const Awards = () => {
   return (
     <article id="awards" className="pb-4 lg:mb-36">
         <motion.h2 
-        whileInView={{ opacity: 1, y: 0}}
-        initial={{ opacity: 0, y: -100}}
-        transition={{ duration: 0.5 }}
-        className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>
+          whileInView={{ opacity: 1, y: 0}}
+          initial={{ opacity: 0, y: -100}}
+          transition={{ duration: 0.5 }}
+          className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>
             [ Awards & Achievement ]
         </motion.h2> 
         <div>

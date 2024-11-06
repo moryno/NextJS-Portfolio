@@ -8,6 +8,7 @@ import Hero from "./components/Hero"
 import Awards from "./components/Awards"
 import Blog from "./components/blog"
 import { getBlogs } from "./blog/page"
+import Testimonial from "./components/Testimonial"
 
 const page = async () => {
   const blogs = await getBlogs(); 
@@ -21,6 +22,7 @@ const page = async () => {
       <Experience />
       <Projects />
       <Awards />
+      <Testimonial />
       <Blog blogs={blogs} />
       <Contact />
     </section>

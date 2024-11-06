@@ -31,7 +31,7 @@ const BlogCard = ({ blog }: BlogCardProps ) => {
                 font-medium hover:text-pink-500">{ blog.title }</p>
             </Link>
             <p className="text-[0.8125rem] text-stone-400 mt-2">{ moment(blog.date).fromNow() }</p>
-            <p className="text-[0.875rem] text-gray-300 leading-6 mt-4 overflow-hidden text-ellipsis line-clamp-3">{ blog.description }</p>
+            <p className="text-sm text-gray-300 leading-6 mt-4 overflow-hidden text-ellipsis line-clamp-3">{ blog.description }</p>
         </div>        
     </div>
   )
