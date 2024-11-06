@@ -6,7 +6,7 @@ import { TESTIMONIALS } from "@/utils/data/testimonials"
 
 const Testimonial = () => {
   return (
-    <article id="awards" className="pb-4 lg:mb-36">
+    <article id="testimonial" className="pb-4 lg:mb-36">
     <motion.h2 
       whileInView={{ opacity: 1, y: 0}}
       initial={{ opacity: 0, y: -100}}

@@ -14,8 +14,12 @@ const Awards = () => {
           className='my-20 text-pink-500 text-center text-sm tracking-widest uppercase'>
             [ Awards & Achievement ]
         </motion.h2> 
-        <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+            <motion.div
+             className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16"
+             whileInView={{ opacity: 1, y: 0}}
+             initial={{ opacity: 0, y: 100}}
+             transition={{ duration: 1 }}
+             >
                 <div className="flex flex-col gap-6">
                     {awards.map(award => (
                         <GlowCard 
@@ -82,8 +86,7 @@ const Awards = () => {
                         </GlowCard>
                     ))}
                 </div>
-            </div>
-        </div>
+            </motion.div>
     </article>
   )
 } 

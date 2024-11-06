@@ -11,7 +11,7 @@ interface BlogCardProps {
 
 const Blog = ({ blogs} : BlogCardProps) => {
   return (
-    <article id="about" className="pb-4 lg:mb-36">
+    <article id="blog" className="pb-4 lg:mb-36">
     <motion.h2 
      whileInView={{ opacity: 1, y: 0}}
      initial={{ opacity: 0, y: -100}}

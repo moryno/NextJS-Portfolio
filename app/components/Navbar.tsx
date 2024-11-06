@@ -63,6 +63,20 @@ const Navbar = () => {
           </li>
           <li>
             <Link role="button" className="block px-4 py-2 no-underline outline-none hover:no-underline"
+             href={"#testimonial"}
+            >
+                <div className="text-sm transition-colors duration-300 hover:text-pink-500">TESTIMONIAL</div>
+            </Link>
+          </li>
+          <li>
+            <Link role="button" className="block px-4 py-2 no-underline outline-none hover:no-underline"
+             href={"#blog"}
+            >
+                <div className="text-sm transition-colors duration-300 hover:text-pink-500">BLOG</div>
+            </Link>
+          </li>
+          <li>
+            <Link role="button" className="block px-4 py-2 no-underline outline-none hover:no-underline"
              href={"#contact"}
             >
                 <div className="text-sm transition-colors duration-300 hover:text-pink-500">CONTACT</div>
